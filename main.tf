@@ -14,5 +14,3 @@ module "ec2" {
   sg_id = module.sg.sg_id
   subnet_id = module.vpc.subnet_ids
 }
-
-#wywala blad modulu ze wzgledu na brak bucketu na tym regionie !
